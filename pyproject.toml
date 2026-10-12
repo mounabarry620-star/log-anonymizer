@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "log-anonymizer"
+version = "0.1.0"
+description = "Masquage et pseudonymisation des données sensibles dans les logs"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [{ name = "Mamadou Bailo BARRY", email = "mounabarry620@gmail.com" }]
+dependencies = ["PyYAML>=6"]
+
+[project.optional-dependencies]
+test = ["pytest>=7"]
+
+[project.scripts]
+log-anonymizer = "log_anonymizer.cli:main"
+
+[tool.setuptools]
+packages = ["log_anonymizer"]
+
+[tool.setuptools.package-data]
+log_anonymizer = ["default_rules.yaml"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

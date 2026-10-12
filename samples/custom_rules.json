@@ -1,0 +1,7 @@
+{
+  "sensitive_keys": ["password"],
+  "rules": [
+    {"name": "email", "label": "EMAIL", "pattern": "\\b[\\w.+-]+@[\\w-]+(?:\\.[\\w-]+)+\\b"},
+    {"name": "order", "label": "ORDER", "pattern": "\\bCMD-\\d{6}\\b"}
+  ]
+}

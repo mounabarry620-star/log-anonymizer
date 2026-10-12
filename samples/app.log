@@ -1,0 +1,7 @@
+2026-10-12 08:15:02 INFO  Login success user=alice from 192.168.1.42
+2026-10-12 08:15:07 WARN  Failed password for bob from 10.0.0.7 port 51234 ssh2
+2026-10-12 08:16:11 DEBUG POST /api/login password=Sup3rS3cret! token=eyJhbGciOiJIUzI1NiJ9.abc
+2026-10-12 08:17:45 INFO  Mail sent to jean.dupont@example.fr (contact: 06 12 34 56 78)
+2026-10-12 08:18:00 INFO  DHCP lease 00:1A:2B:3C:4D:5E -> 192.168.1.42
+2026-10-12 08:19:30 INFO  IPv6 client 2001:db8:85a3::8a2e:370:7334 connected, callback +33 6 98 76 54 32
+2026-10-12 08:20:00 INFO  Authorization: Bearer abcdef1234567890XYZ
